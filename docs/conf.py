@@ -33,9 +33,9 @@ class Mock(MagicMock):
     def __getattr__(cls, name):
         return MagicMock()
 
-MOCK_MODULES = ['mpi4py',
-                'torch',
-                'torch.optim',
+MOCK_MODULES = ['mpi4py', 
+                'torch', 
+                'torch.optim', 
                 'torch.nn',
                 'torch.distributions',
                 'torch.distributions.normal',
@@ -56,8 +56,6 @@ source_parsers = {
 
 # -- General configuration ------------------------------------------------
 
-html_baseurl = "https://QubitPi.github.io/openai-spinningup/"
-
 # If your documentation needs a minimal Sphinx version, state it here.
 #
 # needs_sphinx = '1.0'
@@ -65,10 +63,10 @@ html_baseurl = "https://QubitPi.github.io/openai-spinningup/"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
+extensions = ['sphinx.ext.imgmath',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon','sphinx.ext.mathjax']
+    'sphinx.ext.napoleon']
 
 #'sphinx.ext.mathjax', ??
 
