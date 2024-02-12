@@ -3,6 +3,8 @@
 Welcome to Spinning Up in Deep RL! 
 ==================================
 
+[![Read the Docs][Read the Docs badge]][Read the Docs URL]
+
 This is an educational resource produced by OpenAI that makes it easier to learn about deep reinforcement learning (deep RL).
 
 For the unfamiliar: [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) (RL) is a machine learning approach for teaching agents how to solve tasks by trial and error. Deep RL refers to the combination of RL with [deep learning](http://ufldl.stanford.edu/tutorial/).
@@ -30,3 +32,6 @@ If you reference or use Spinning Up in your research, please cite:
     year = {2018}
 }
 ```
+
+[Read the Docs badge]: https://img.shields.io/readthedocs/open-ai-spinningup?style=for-the-badge&logo=readthedocs&logoColor=white&label=Read%20the%20Docs&labelColor=8CA1AF
+[Read the Docs URL]: https://open-ai-spinningup.readthedocs.io/en/latest/
